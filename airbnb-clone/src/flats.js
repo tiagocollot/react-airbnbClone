@@ -1,6 +1,5 @@
 
-
-const flats = [
+const json = [
   {
     id: 145,
     name: "Charm at the Steps of the Sacre Coeur/Montmartre",
@@ -63,4 +62,4 @@ const flats = [
   },
 ];
 
-export default flats;
+export default json;

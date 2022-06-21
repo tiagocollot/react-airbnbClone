@@ -3,9 +3,10 @@ import "bootstrap/dist/css/bootstrap.css";
 import "./App.scss";
 
 import Flat from "./Flat";
+import json from "../flats"
 
 const App = () => {
-  const [flats ,setFlats] = useState([]);
+  const [flats ,setFlats] = useState(json);
   return (
     <div className="app">
       <div className="main">
